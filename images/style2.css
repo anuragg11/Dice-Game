@@ -1,0 +1,48 @@
+#container{
+    text-align: center;
+    width:100%;
+}
+body{
+    background-color:#393E46;
+}
+
+
+h1{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ECCA3;
+  }
+
+p{
+    color: #4ECCA3;
+    font-size: 2rem;
+    font-family:'Indie Flower', cursive;
+}
+
+#playArea .Player{
+    display:inline-block;
+    margin:10px 80px;
+    text-align: center;
+
+} 
+
+
+footer{
+  margin-top: 5%;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+@media only screen and (max-width:600px) {
+    .img1 , .img2{
+        height:150px;
+        width:150px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
